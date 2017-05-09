@@ -8,7 +8,9 @@ pip install Django==1.9.1
 # Crear una aplicación
 ```
 django-admin startproject mysite
+python manage.py startapp polls
 ```
+
 # Correr la aplicacion
 ```
 cd mysite
