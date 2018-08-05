@@ -1,6 +1,13 @@
-# django
-Django Ayuda
-# Creamos un entorno virtual "myvenv"
+# Configuramos el gestor de BD settings.py
 ```
-virtualenv myvenv
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME': 'test',
+        'USER': 'odoo',
+        'PASSWORD': False,
+        'HOTS': 'localhost',
+        'PORT': 5432,
+    }
+}
 ```
