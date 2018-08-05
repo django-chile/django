@@ -1,13 +1,14 @@
 # django
 Django Ayuda
+# Creamos un entorno virtual "myvenv"
+```
+python -m venv myvenv
+```
+
 
 # Instalar django
 ```
 pip install Django==1.9.1
-```
-# Creamos un entorno virtual "myvenv"
-```
-python -m venv myvenv
 ```
 
 # Crear una aplicación
