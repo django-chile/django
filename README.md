@@ -5,6 +5,11 @@ Django Ayuda
 ```
 pip install Django==1.9.1
 ```
+# Creamos un entorno virtual "myvenv"
+```
+python3 -m venv myvenv
+```
+
 # Crear una aplicación
 ```
 django-admin startproject mysite
