@@ -17,8 +17,6 @@ source bin/activate
 deactivate
 ```
 
-deactivate
-
 # Instalar django
 ```
 pip install Django==1.9.1
