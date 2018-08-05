@@ -2,7 +2,7 @@
 Django Ayuda
 # Creamos un entorno virtual "myvenv"
 ```
-python -m venv myvenv
+virtualenv myvenv
 ```
 
 
