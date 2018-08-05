@@ -31,9 +31,15 @@ python manage.py startapp polls
 # Correr la aplicacion
 ```
 cd mysite
-python manage.py migrate
 python manage.py runserver
 ```
+
+# Migraciones
+```
+python manage.py migrate
+python manage.py makemigrations
+```
+
 # Ver la app
 ```
 http://127.0.0.1:8000/
