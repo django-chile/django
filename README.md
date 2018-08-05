@@ -51,6 +51,7 @@ python manage.py createsuperuser
 # Creando Apps 
 ```
 python manage.py startapp moviesmfh
+django-admin startapp mascota
 ```
 
 # Saber librerias PIP
