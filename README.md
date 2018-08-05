@@ -51,3 +51,8 @@ python manage.py createsuperuser
 ```
 python manage.py startapp moviesmfh
 ```
+
+# Saber librerias PIP
+```
+pip freeze
+```
