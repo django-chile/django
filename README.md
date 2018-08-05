@@ -31,6 +31,7 @@ python manage.py startapp polls
 # Correr la aplicacion
 ```
 cd mysite
+python manage.py migrate
 python manage.py runserver
 ```
 # Ver la app
