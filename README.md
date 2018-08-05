@@ -12,6 +12,13 @@ cd env
 source bin/activate
 ```
 
+# desactivar entorno virtual "env"
+```
+deactivate
+```
+
+deactivate
+
 # Instalar django
 ```
 pip install Django==1.9.1
