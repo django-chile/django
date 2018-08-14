@@ -1,5 +1,4 @@
-# django
-Models Help
+# Models Django
 
 ```
 class Mascota(models.Model):
