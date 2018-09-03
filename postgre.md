@@ -1,3 +1,10 @@
+
+# Instalando
+
+```
+pip install psycopg2
+```
+
 # Configuramos el gestor de BD settings.py
 ```
 DATABASES = {
