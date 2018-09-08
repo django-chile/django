@@ -56,7 +56,25 @@ mv default.conf default
 cd /etc/nginx/sites-available
 nano default
 ```
+default
+```
+server {
+    listen 80;
+    server_name 186.64.123.44;
 
+    location = /favicon.ico { access_log off; log_not_found off; }
+    location /static/ {
+        root /home/django/erp;
+    }
+
+    location / {
+        include proxy_params;
+        proxy_pass http://unix:/home/django/erp/erp.sock;
+    }
+}
+```
+
+Reiniciamos
 ```
 nginx -s reload
 ```
@@ -92,7 +110,8 @@ gunicorn --bind 0.0.0.0:8000 erp.wsgi
 
 # Creamos el servicio
 ```
-nano /etc/systemd/system/gunicorn.service
+sudo su
+nano /etc/systemd/system/erp.service
 ```
 # Creamos el servicio
 ```
@@ -108,6 +127,12 @@ ExecStart=/home/django/.venv/bin/gunicorn --access-logfile - --workers 3 --bind 
 
 [Install]
 WantedBy=multi-user.target
+```
+
+# Activamos servicio Gunicorn
+```
+sudo systemctl start erp
+sudo systemctl enable erp
 ```
 
 
