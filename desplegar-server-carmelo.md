@@ -21,7 +21,7 @@ sudo apt install python-virtualenv
 sudo virtualenv .venv --python=python3
 ```
 
-# levantar
+# Activamos el enterno
 ```
 source ~/.venv/bin/activate
 ```
