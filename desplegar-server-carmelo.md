@@ -135,6 +135,10 @@ sudo systemctl start erp
 sudo systemctl enable erp
 ```
 
+# Reiniciamos
+```
+service erp restart
+```
 
 
 
