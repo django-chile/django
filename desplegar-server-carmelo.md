@@ -55,6 +55,8 @@ mv default.conf default
 
 cd /etc/nginx/sites-available
 nano default
+
+nginx -s reload
 ```
 default
 ```
