@@ -22,6 +22,13 @@ deactivate
 pip install Django==1.9.1
 ```
 
+# Instalar django 2
+```
+pip install Django
+sudo apt-get install python3-psycopg2
+```
+
+
 # Crear una aplicación
 ```
 django-admin startproject mysite
