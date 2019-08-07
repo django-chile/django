@@ -2,7 +2,7 @@
 # Instalando
 
 ```
-pip install psycopg2
+sudo apt-get install python3-psycopg2
 ```
 
 # Configuramos el gestor de BD settings.py
