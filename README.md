@@ -11,7 +11,6 @@ python manage.py runserver
 http://127.0.0.1:8000/
 ```
 
-Django Ayuda
 # Creamos un entorno virtual "myvenv"
 ```
 virtualenv myvenv
